@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Roboto, sans-serif ;
+}
+
+header h1, footer p {
+    align-items: center;
+}
+
+.container {
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
+header, footer {
+    padding: 30px 0 0;
+    background-color: dodgerblue;
+    margin-bottom: 40px;
+    color: white;
+}
+
+header li {
+    display: inline;
+    margin-left: 8px;
+}
+
+header li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+section .sobre {
+    display: flex;
+    text-align: justify;
+}
+
+section .container h2 {
+    margin: 0 0 16px 20px;
+    color: dodgerblue;
+}
+
+section .sobre p {
+    margin-bottom: 30px;
+}
+
+hr {
+    margin-bottom: 20px;
+    border-color: dodgerblue;
+    border-radius: 50px;
+}
+
+.store {
+    max-width: 400px;
+    margin: 0 20px 20px 0;
+}
+
+.brands-list img {
+    height: 24px;
+}
+
+.brands-list li {
+    display: inline;
+    margin-right: 8px;
+}
+
+.container-flex {
+    display: flex;
+    align-items: baseline;
+    text-align: justify;
+}
+
+.products img {
+    max-width: 100%;
+}
+
+.products button {
+    border: none;
+    border-radius: 5px;
+    background-color: dodgerblue;
+    color: white;
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 20px;
+}
+
+.anuncio {
+    margin-left: 20px;
+}
